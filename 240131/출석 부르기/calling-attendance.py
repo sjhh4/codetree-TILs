@@ -6,3 +6,5 @@ elif a == 2:
     print('Tom')
 elif a == 3:
     print('Paul')
+else:
+    print('Vacancy')
