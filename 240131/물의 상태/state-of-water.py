@@ -1,3 +1,11 @@
 n = int(input())
 
-print('ice') if n < 0 elif print('vapor') if n > 100 else print('water')
+
+if n < 0:
+    print('ice') 
+    
+elif n > 100:
+    
+    print('vapor')
+else:
+    print('water')
