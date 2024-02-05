@@ -1,3 +1,3 @@
-a, b, c  = int(input().split())
+a, b, c  = map(int, input().split())
 
-print(max(a, max(b, c)))
+print(max(a, b, c)
