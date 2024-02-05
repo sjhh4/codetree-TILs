@@ -5,7 +5,7 @@ if y %4 ==0:
         if y%400==0:
             print('true')
         else:
-            print('flase')
+            print('false')
     else:
         print('true')
 else:
