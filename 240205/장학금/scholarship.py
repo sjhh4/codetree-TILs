@@ -6,4 +6,4 @@ if m>=90:
     elif f>=90:
         print(50000)
     else:
-        pass
+        print(0)
