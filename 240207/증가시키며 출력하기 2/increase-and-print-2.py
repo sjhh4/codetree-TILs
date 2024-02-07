@@ -1,5 +1,5 @@
 a = 10
 
 while a < 27:
-    print(a)
+    print(a, end = ' ')
     a += 1
