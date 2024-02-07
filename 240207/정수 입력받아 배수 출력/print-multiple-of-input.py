@@ -4,3 +4,4 @@ a = 1
 
 while a < 6:
     print( n*a, end = ' ')
+    a += 1
