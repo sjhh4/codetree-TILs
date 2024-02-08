@@ -1,3 +1,8 @@
 a, b = map(int, input().split())
 
-print(f'{a/b:.20f}')
+print(f'{a//b}.', end = '')
+a %= b
+for i in range(1, 21):
+    a *= 10**i
+    print(f'{a//b}', end = '')
+    a %= b
