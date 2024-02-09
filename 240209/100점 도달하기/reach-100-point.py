@@ -7,7 +7,7 @@ for i in range(n, 101):
         print('D', end = ' ')
     elif n < 80:
         print('C', end = ' ')
-    elif m < 90:
+    elif n < 90:
         print('B', end = ' ')
     else:
         pritn('A', end = ' ')
