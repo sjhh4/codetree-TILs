@@ -10,4 +10,4 @@ for i in range(n, 101):
     elif n < 90:
         print('B', end = ' ')
     else:
-        pritn('A', end = ' ')
+        print('A', end = ' ')
